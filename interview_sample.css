@@ -1,0 +1,148 @@
+body {
+
+    
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding:0 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .top-bar {  /* 追加 */
+    background-color: orange;
+    height: 30px; /* バーの高さ */
+    width: 100%; /* バーの幅 */
+  }
+
+  .title{
+    font-size: 20px;    /* 文字サイズ指定 */
+    color: orange;     /* 文字色指定 */
+    line-height: 1.2;
+  }
+
+  .container {
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+  }
+
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro, .profile {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.profile ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.profile ul li {
+    padding: 5px 0;
+}
+
+.chat-message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.chat-message.left {
+    flex-direction: row;
+}
+
+.chat-message.right {
+    flex-direction: row-reverse;
+}
+
+.section-title {
+    margin-bottom: 20px; /* タイトルの下に余白を追加 */
+}
+
+.section-text {
+    margin-top: 10px;  /* 文章の上に余白を追加 */
+}
+
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.person img,
+.qna img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* アイコンと文章の間のスペース */
+}
+
+.icon-text img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.icon-text p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.interview-photo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.interview-photo img {
+    width: 80%; /* 写真の幅を調整 */
+    max-width: 600px; /* 最大幅を設定 */
+    height: auto;
+    border-radius: 10px; /* 角を丸くする */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 影を追加 */
+}
+
+.photo-caption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 8px;
+}
+
+
+.bubble {
+    padding: 10px 15px;
+    border-radius: 10px;
+    line-height: 1.5;
+    max-width: 70%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bubble-left {
+    background-color: #e0f7fa;
+    border-top-left-radius: 0;
+    margin-left: 10px;
+}
+
+.bubble-right {
+    background-color: #e3f2fd;
+    border-top-right-radius: 0;
+    margin-right: 10px;
+}
+
+.bubble p {
+    margin: 0;
+}
